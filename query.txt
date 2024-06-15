@@ -1,0 +1,80 @@
+USE [Akshada]
+GO
+/****** Object:  StoredProcedure [dbo].[proc_Register]    Script Date: 6/15/2024 1:15:23 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER procedure [dbo].[proc_Register]
+(
+@Id int=0,
+@UId int=0,
+@type varchar(10)='',
+@Name varchar(100)='',
+@Mobile_No varchar(10)='',
+@Email varchar(100)='',
+@Gender varchar(10)='',
+@UserName varchar(100)='',
+@Password varchar(100)='',
+@UserType varchar(100)='',
+@Result varchar(100)='' out
+)
+as    
+begin
+	if(@type='I')
+	begin   
+	if exists(select * from Register where UserName=@UserName and Password=@Password)
+	begin
+	  set @Result='Already Exist';
+	end
+	else
+	begin	
+	  insert into Register(Name,Mobile_No,Email,Gender,UserName,Password,UserType,CreatedBy,CreatedOn) 
+	  values(@Name,@Mobile_No,@Email,@Gender,@UserName,@Password,@UserType,@Id,getDate());
+	  set @UId= (SELECT TOP 1 Id FROM Register ORDER BY Id DESC);
+	  select * from Register where Id=@UId;
+	end
+	end
+	if(@type='U')
+	begin
+	  Update Register set 
+	  Name=@Name,
+	  Mobile_No=@Mobile_No,
+	  Email=@Email,
+	  Gender=@Gender,
+	  UserName=@UserName,
+	  Password=@Password,
+	  UserType=@UserType,
+	  ModifiedBy=@Id,
+	  ModifiedOn=GETDATE()
+	  where Id=@Id;
+	  select * from Register where Id=@Id;
+	end
+	if(@type='D')
+	begin
+	  Update Register set 
+	  isDeleted=1,
+	  DeletedBy=@Id,
+	  DeletedOn=GETDATE()
+	  where Id=@Id;
+	
+	end
+	if(@type='S')
+	begin
+	  select
+	   isnull(Id,'') as Id,
+	  isnull(Name,'') as Name,
+	  isnull(Mobile_No,'') as Mobile_No,
+	  isnull(Email,'')as Email,
+	  isnull(Gender,'')as Gender,
+	  isnull(UserName,'')as UserName,
+	  isnull(Password,'')as Password,
+	  isnull(UserType,'')as UserType
+	  from Register where Id=@Id and isnull(isDeleted,'0')=0;
+	  
+	end
+end;
+
+---truncate table  Register
+
+--select * from Register

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|c:\\users\\sabal\\source\\repos\\crudusingdapper\\crudusingdapper\\db\\dbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|solutionrelative:crudusingdapper\\db\\dbcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|c:\\users\\sabal\\source\\repos\\crudusingdapper\\crudusingdapper\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|solutionrelative:crudusingdapper\\controllers\\crudapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|c:\\users\\sabal\\source\\repos\\crudusingdapper\\crudusingdapper\\iservice\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2320B95-9901-44A7-A332-CBBA94B28C54}|CrudUsingdapper\\CrudUsingdapper.csproj|solutionrelative:crudusingdapper\\iservice\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sabal\\AppData\\Local\\Temp\\khvgq5yu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sabal\\AppData\\Local\\Temp\\khvgq5yu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sabal\\AppData\\Local\\Temp\\khvgq5yu..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBCrud.cs",
+              "DocumentMoniker": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\DB\\DBCrud.cs",
+              "RelativeDocumentMoniker": "CrudUsingdapper\\DB\\DBCrud.cs",
+              "ToolTip": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\DB\\DBCrud.cs",
+              "RelativeToolTip": "CrudUsingdapper\\DB\\DBCrud.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAwwKcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:54:29.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\sabal\\AppData\\Local\\Temp\\khvgq5yu..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\khvgq5yu..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-08T19:13:04.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\IService\\ICrudService.cs",
+              "RelativeDocumentMoniker": "CrudUsingdapper\\IService\\ICrudService.cs",
+              "ToolTip": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\IService\\ICrudService.cs",
+              "RelativeToolTip": "CrudUsingdapper\\IService\\ICrudService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T16:59:50.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrudAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\Controllers\\CrudAPIController.cs",
+              "RelativeDocumentMoniker": "CrudUsingdapper\\Controllers\\CrudAPIController.cs",
+              "ToolTip": "C:\\Users\\sabal\\source\\repos\\CrudUsingdapper\\CrudUsingdapper\\Controllers\\CrudAPIController.cs",
+              "RelativeToolTip": "CrudUsingdapper\\Controllers\\CrudAPIController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T15:48:57.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
